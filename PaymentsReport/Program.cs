@@ -11,10 +11,10 @@ namespace PaymentsReport
 {
 	internal class Program
 	{
-		private const string default_source_file_name = "Contract\\GosContract.xlsx";
-		private const string default_report_file_name = "Contract\\GosContract.txt";
-		private const string default_report_file_name_xls = "Contract\\GosContractReport.xlsx";
-		private const string inn_root = "7704252261"; //УФК
+		private const string default_source_file_name = "Contract\\Contract.xlsx";
+		private const string default_report_file_name = "Contract\\Contract.txt";
+		private const string default_report_file_name_xls = "Contract\\ContractReport.xlsx";
+		private const string inn_root = ""; //УФК
 
 		private static string GetDefaultSourceFileName()
 			=> string.IsNullOrEmpty( AppSettings.Default.SourceFileName) 
